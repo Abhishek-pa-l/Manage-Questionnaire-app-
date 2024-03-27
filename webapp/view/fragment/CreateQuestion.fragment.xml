@@ -15,16 +15,16 @@
                     text="Question Category"
                 />
                 <Input
-                    id="demandIDInput"
+                    id="questioncatid"
                     value=""
                 />
 
                 <Label
                     id="fundCenterLabel"
-                    text="Question"
+                    text="Question Title"
                 />
                 <Input
-                    id="fundCenterInput"
+                    id="questiontitleid"
                     value=""
                 />
 
@@ -38,7 +38,7 @@
             <Button
                 text="Add"
                 type="Emphasized"
-                press="OnAddDemandDBudgetAdd"
+                press="onAdd"
             />
             <Button
                 text="Cancel"

@@ -12,11 +12,15 @@
             <Table
                 items="{jModel>/}"
                 id="t1"
+                mode="SingleSelectLeft"
                 class=""
             >
                 <headerToolbar>
                     <OverflowToolbar id="_IDGenOverflowToolbarUpdated">
                         <Button text="Create New Question" type="Emphasized" press="onCreateQuestion" />
+                        <Button text="" icon="sap-icon://delete" press="" />
+                        <Button text="Update" type="" press="" />
+
                     </OverflowToolbar>
                 </headerToolbar>
                 <columns>
@@ -24,6 +28,12 @@
                         <Text
                             text="Question ID"
                             id="txt1"
+                        />
+                    </Column>
+                    <Column id="c745">
+                        <Text
+                            text="Question Title"
+                            id="txt254"
                         />
                     </Column>
                     <Column id="c2">
@@ -58,6 +68,8 @@
                     >
                         <cells>
                             <Text text="{jModel>QuestionId}" />
+                            <Text text="{jModel>Questiontitle}" />
+
                             <Text text="{jModel>QuestionCatogrie}" />
                             <Text text="{jModel>Active}" />
                             <Text text="{jModel>CreatedOn}" />
