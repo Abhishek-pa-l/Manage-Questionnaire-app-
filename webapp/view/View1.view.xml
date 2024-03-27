@@ -1,0 +1,71 @@
+<mvc:View
+    controllerName="com.sap.managequestionnaireapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Table
+                items="{jModel>/}"
+                id="t1"
+                class=""
+            >
+                <headerToolbar>
+                    <OverflowToolbar id="_IDGenOverflowToolbarUpdated">
+                        <Button text="Create New Question" type="Emphasized" press="onCreateQuestion" />
+                    </OverflowToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column id="c1">
+                        <Text
+                            text="Question ID"
+                            id="txt1"
+                        />
+                    </Column>
+                    <Column id="c2">
+                        <Text
+                            text="Question Category"
+                            id="txt2"
+                        />
+                    </Column>
+                    <Column id="c3">
+                        <Text
+                            text="Active"
+                            id="txt3"
+                        />
+                    </Column>
+                    <Column id="c4">
+                        <Text
+                            text="Created on"
+                            id="txt4"
+                        />
+                    </Column>
+                    <Column id="c5">
+                        <Text
+                            text="Created by"
+                            id="txt5"
+                        />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem
+                        id="_IDGenColumnListItem1"
+                        vAlign="Middle"
+                    >
+                        <cells>
+                            <Text text="{jModel>QuestionId}" />
+                            <Text text="{jModel>QuestionCatogrie}" />
+                            <Text text="{jModel>Active}" />
+                            <Text text="{jModel>CreatedOn}" />
+                            <Text text="{jModel>CreatedBy}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
