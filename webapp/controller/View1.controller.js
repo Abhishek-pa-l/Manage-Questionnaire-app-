@@ -13,34 +13,230 @@ sap.ui.define([
             onInit: function () {
                 let data = [
                     {
-                        "QuestionId": "	27174952",
-                        "Questiontitle": "Query1",
-                        "QuestionCatogrie": "category1",
+                        "QuestionId": "	275174952",
+                        "Questiontitle": "Please attach company registration license (or other similar certificate in accordance with your national law)",
+                        "QuestionCatogrie": " Instructions for Completion ",
                         "Active": "True",
                         "CreatedOn": "1/11/2024",
                         "CreatedBy": "danara",
 
                     },
                     {
-                        "QuestionId": "27174954",
-                        "Questiontitle": "Query2",
+                        "QuestionId": "727174954",
+                        "Questiontitle": "Full legal name of the company",
 
-                        "QuestionCatogrie": "category2",
+                        "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
                         "CreatedOn": "1/11/2024",
                         "CreatedBy": "danara",
 
                     },
                     {
-                        "QuestionId": "27174955",
-                        "Questiontitle": "Query3",
+                        "QuestionId": "257174955",
+                        "Questiontitle": "Legal status",
 
-                        "QuestionCatogrie": "category3",
+                        "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
                         "CreatedOn": "1/11/2024",
                         "CreatedBy": "danara",
 
                     },
+                    {
+                        "QuestionId": "277174955",
+                        "Questiontitle": "Year of establishment",
+
+                        "QuestionCatogrie": "Company General Information ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "327174955",
+                        "Questiontitle": "Legal address of company ",
+
+                        "QuestionCatogrie": "Company General Information ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },  {
+                        "QuestionId": "227174955",
+                        "Questiontitle": "VAT number",
+
+                        "QuestionCatogrie": "Company General Information ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271794955",
+                        "Questiontitle": "Total No. of Employees",
+
+                        "QuestionCatogrie": "Human resources  ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271374955",
+                        "Questiontitle": "Local Employees",
+
+                        "QuestionCatogrie": "Human resources  ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271674955",
+                        "Questiontitle": "Has your company already provided subcontract/ outsourcing activities to the KPO? ",
+
+                        "QuestionCatogrie": "Business relationship with KPO ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271734955",
+                        "Questiontitle": "Is your company already a supplier of KPO?",
+
+                        "QuestionCatogrie": "Business relationship with KPO ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271274955",
+                        "Questiontitle": "For which activities?",
+
+                        "QuestionCatogrie": "Business relationship with KPO ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271774955",
+                        "Questiontitle": "Name",
+
+                        "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271274955",
+                        "Questiontitle": "Surname",
+
+                        "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271734955",
+                        "Questiontitle": "Organizational Role",
+
+                        "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },{
+                        "QuestionId": "271744955",
+                        "Questiontitle": "Name and surname of the person or the company in charge of the process ",
+
+                        "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749655",
+                        "Questiontitle": "Type of relationship ",
+
+                        "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "BIN/IIN of the consultant ",
+
+                        "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "BDoes your company have the certificates of  ISO 45001 Health and Safety MS, ISO 14001 Environmental MS, ISO 39001 Road traffic safety MS?  ",
+
+                        "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "Please provide copies of certificates",
+
+                        "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "Provide a valid (not older than 5 years) and approved (signed) by Senior management written Health, Safety and Environmental (HSE) policy.",
+
+                        "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "Do you have HSE management system certifications (e.g. ISO 45001 Health and Safety MS, ISO 14001 Environmental MS, ISO 39001 Road traffic safety MS etc.). .",
+
+                        "QuestionCatogrie": "LOW_HSE questionnaire",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                    {
+                        "QuestionId": "271749559",
+                        "Questiontitle": "HSE Policy ",
+
+                        "QuestionCatogrie": "HSE Management System",
+
+                        "Active": "True",
+                        "CreatedOn": "1/11/2024",
+                        "CreatedBy": "danara",
+
+                    },
+                  
                 ];
 
                 let jModel = new JSONModel(data);
