@@ -60,7 +60,7 @@ sap.ui.define([
                         "CreatedOn": "1/11/2024",
                         "CreatedBy": "danara",
 
-                    },  {
+                    }, {
                         "QuestionId": "227174955",
                         "Questiontitle": "VAT number",
 
@@ -149,7 +149,7 @@ sap.ui.define([
                         "CreatedOn": "1/11/2024",
                         "CreatedBy": "danara",
 
-                    },{
+                    }, {
                         "QuestionId": "271744955",
                         "Questiontitle": "Name and surname of the person or the company in charge of the process ",
 
@@ -236,31 +236,48 @@ sap.ui.define([
                         "CreatedBy": "danara",
 
                     },
-                  
+
                 ];
+                let data2 = [
+                    {
+                        "QuestionCatogrie": "Instructions for Completion"
+                    }, {
+                        "QuestionCatogrie": "HSE Management System"
+                    }, {
+                        "QuestionCatogrie": "LOW_HSE questionnaire"
+                    }, {
+                        "QuestionCatogrie": "MED._HIGH_ HSE questionnaire"
+                    }, {
+                        "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process"
+                    },
+                ]
 
                 let jModel = new JSONModel(data);
                 this.getView().setModel(jModel, "jModel");
+                let sModel = new JSONModel(data2);
+                this.getView().setModel(sModel, "sModel");
+
+
             },
             onCreateQuestion: function () {
                 debugger
-                if (!this._QuestionDialog) {
+                if (!this.questionDialog) {
                     Fragment.load({
                         id: this.getView().getId(),
                         name: "com.sap.managequestionnaireapp.view.fragment.CreateQuestion",
                         controller: this
                     }).then(oDialog => {
-                        this._QuestionDialog = oDialog;
-                        this.getView().addDependent()
+                        this.questionDialog = oDialog
+                        this.getView().addDependent(oDialog)
                         oDialog.open()
                     })
-                }
-                else {
-                    this._QuestionDialog.open()
+                } else {
+                    this.questionDialog.open()
                 }
             },
+
             onCancelCreateQuestionFrag: function () {
-                this._QuestionDialog.close()
+                this.questionDialog.close()
 
             },
             onAdd: function () {
