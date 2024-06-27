@@ -15,6 +15,17 @@
       "version": "1.13.0",
       "toolsId": "5bff8ceb-012f-473f-aaa3-1ce7da7abbc3"
     },
+    "dataSources": {
+      "mainService": {
+        "uri": "/v2/odata/v4/catalog/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "localUri": "localService/metadata.xml",
+          "odataVersion": "2.0"
+        }
+      }
+    },
     "crossNavigation": {
       "inbounds": {
         "manage-manage": {
@@ -70,6 +81,11 @@
         "settings": {
           "bundleName": "com.sap.managequestionnaireapp.i18n.i18n"
         }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {}
       }
     },
     "resources": {

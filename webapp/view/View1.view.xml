@@ -18,10 +18,11 @@
                 <headerToolbar>
                     <OverflowToolbar id="_IDGenOverflowToolbarUpdated">
                     <ToolbarSpacer ></ToolbarSpacer>
+                    <SearchField width="20%"/>
                         <Button text="Create New Question" type="Emphasized" press="onCreateQuestion" />
-                        <Button text="Delete"  press="" />
-                        <Button text="Modify" type="" press="" />
-                        <Button text="Save" type="" press="" />
+                        <Button text="Delete"  press="onDelete" />
+                         <Button text="Modify"  press="onModify" />
+                        <Button text="Save" type="Accept" press="onSave" />
 
 
                     </OverflowToolbar>
@@ -51,18 +52,21 @@
                             id="txt3"
                         />
                     </Column>
-                    <!-- <Column id="c4">
+                    <Column id="c4">
                         <Text
-                            text="Created on"
-                            id="txt4"
+                            text="Response Type"
+                           
                         />
                     </Column>
+
                     <Column id="c5">
                         <Text
-                            text="Created by"
+                            text="Attachment Required"
                             id="txt5"
                         />
-                    </Column> -->
+                    </Column>
+                    <!-- 
+                     -->
                 </columns>
                 <items>
                     <ColumnListItem
@@ -74,9 +78,9 @@
                             <Text text="{jModel>Questiontitle}" />
 
                             <Text text="{jModel>QuestionCatogrie}" />
-                            <CheckBox text="True" selected="true" />
-                            <!-- <Text text="{jModel>CreatedOn}" />
-                            <Text text="{jModel>CreatedBy}" /> -->
+                            <CheckBox  selected="true" />
+                            <Text text="{jModel>ResponseType}" />
+                             <CheckBox  selected="{jModel>AttachmentNeeded}" />
                         </cells>
                     </ColumnListItem>
                 </items>

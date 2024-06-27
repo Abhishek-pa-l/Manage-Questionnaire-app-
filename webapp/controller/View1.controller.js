@@ -17,8 +17,8 @@ sap.ui.define([
                         "Questiontitle": "Please attach company registration license (or other similar certificate in accordance with your national law)",
                         "QuestionCatogrie": " Instructions for Completion ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Attachment",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -27,8 +27,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -37,8 +37,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -47,18 +47,17 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Date",
+                        "AttachmentNeeded": true,
 
                     },
                     {
                         "QuestionId": "327174955",
                         "Questiontitle": "Legal address of company ",
-
                         "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     }, {
                         "QuestionId": "227174955",
@@ -66,8 +65,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Company General Information ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -76,8 +75,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Human resources  ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -86,8 +85,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Human resources  ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -96,8 +95,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Business relationship with KPO ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -106,9 +105,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Business relationship with KPO ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
-
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
                     },
                     {
                         "QuestionId": "271274955",
@@ -116,8 +114,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Business relationship with KPO ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -126,8 +124,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -136,8 +134,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -146,8 +144,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "Compiler who completed the questionnaire for prequalification process  ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     }, {
                         "QuestionId": "271744955",
@@ -155,8 +153,8 @@ sap.ui.define([
 
                         "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -166,8 +164,8 @@ sap.ui.define([
                         "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -177,19 +175,19 @@ sap.ui.define([
                         "QuestionCatogrie": "To be filled in case of use of a consultant to complete the ",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
                         "QuestionId": "271749559",
-                        "Questiontitle": "BDoes your company have the certificates of  ISO 45001 Health and Safety MS, ISO 14001 Environmental MS, ISO 39001 Road traffic safety MS?  ",
+                        "Questiontitle": "Does your company have the certificates of  ISO 45001 Health and Safety MS, ISO 14001 Environmental MS, ISO 39001 Road traffic safety MS?  ",
 
                         "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Text",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -199,8 +197,8 @@ sap.ui.define([
                         "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Attachment",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -210,8 +208,8 @@ sap.ui.define([
                         "QuestionCatogrie": "MED._HIGH_ HSE questionnaire",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Attachment",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -221,8 +219,8 @@ sap.ui.define([
                         "QuestionCatogrie": "LOW_HSE questionnaire",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Attachment",
+                        "AttachmentNeeded": true,
 
                     },
                     {
@@ -232,8 +230,8 @@ sap.ui.define([
                         "QuestionCatogrie": "HSE Management System",
 
                         "Active": "True",
-                        "CreatedOn": "1/11/2024",
-                        "CreatedBy": "danara",
+                        "ResponseType": "Attachment",
+                        "AttachmentNeeded": true,
 
                     },
 
@@ -260,7 +258,7 @@ sap.ui.define([
 
             },
             onCreateQuestion: function () {
-                debugger
+
                 if (!this.questionDialog) {
                     Fragment.load({
                         id: this.getView().getId(),
@@ -281,8 +279,14 @@ sap.ui.define([
 
             },
             onAdd: function () {
-                let aa = this.getView().byId("questioncatid").getValue();
+                let aa = this.getView().byId("Select112").getSelectedKey();
                 let bb = this.getView().byId("questiontitleid").getValue();
+
+                if (!bb) {
+                    this.getView().byId("questiontitleid").setValueState(sap.ui.core.ValueState.Error);
+                    this.getView().byId("questiontitleid").setValueStateText("Title is mandatory")
+                    return;
+                }
                 let currentDate = new Date();
                 let day = currentDate.getDate();
                 let month = currentDate.getMonth() + 1;
@@ -299,8 +303,8 @@ sap.ui.define([
 
                     "QuestionCatogrie": aa,
                     "Active": "True",
-                    "CreatedOn": date,
-                    "CreatedBy": "Annonymus",
+                    "ResponseType": "Attachment",
+                    "AttachmentNeeded": true,
 
                 }
 
@@ -313,6 +317,47 @@ sap.ui.define([
                 this.getView().byId("questioncatid").setValue("");
                 this.getView().byId("questiontitleid").setValue("");
 
-            }
+            },
+            onSave: function () {
+                sap.m.MessageBox.success("Changes Saved Successfully!!")
+            },
+            onDelete: function () {
+                sap.m.MessageBox.success("Changes Deleted Successfully!!")
+            },
+            onModify: function () {
+                this.onCreateQuestion();
+            },
+            onAdd: function () {
+                let oModel = this.getOwnerComponent().getModel();
+                let questionCategory = this.getView().byId("Select112").getSelectedItem().getText();
+                let inputField = this.getView().byId("questiontitleid").getValue();
+                let active = this.getView().byId("active").getSelected();
+                let responseType = this.getView().byId("responseType").getSelectedItem().getText();
+                let attachmentRequired = this.getView().byId("attachmentRequired").getSelected();
+
+                // console.log(questionCategory, inputField, active, responseType, attachmentRequired)
+                let questions = {
+                    questionTitle: inputField,
+                    questionCategory: questionCategory,
+                    active: active,
+                    responsetype: responseType,
+                    attachmentRequired: attachmentRequired,
+                }
+
+                oModel.create("/Manage_questionnaireT", questions, {
+                    success: function (data) {
+
+                        sap.m.MessageBox.success("Data saved " );
+
+                    },
+                    error: function () {
+                        sap.m.MessageBox.error("Error saving data");
+                    }
+
+                });
+            },
+
+
+        
         });
     });

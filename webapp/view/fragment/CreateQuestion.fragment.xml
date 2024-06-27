@@ -36,11 +36,55 @@
                 <Label
                     id="fundCenterLabel"
                     text="Question Title"
+                    required="true"
                 />
                 <Input
                     id="questiontitleid"
                     value=""
                 />
+
+                   <Label
+                  
+                    text="Mark Active/Inactive"
+                />
+                <CheckBox id="active" selected="true"/>
+
+
+                 <Label
+                   
+                    text="Response Type of Question"
+                />
+
+                <Select
+                   id="responseType"
+                
+                >
+                    <items>
+                      <core:Item
+                           
+                            key="Text"
+                            text="Text"
+                        />
+                      
+                        <core:Item
+                           
+                            key="Boolean"
+                            text="Yes/No"
+                        />
+                         <core:Item
+                           
+                            key="Date"
+                            text="Date"
+                        />
+                        
+                    </items>
+                </Select>
+
+                  <Label
+                  
+                    text="Attachment Required?"
+                />
+                <CheckBox id="attachmentRequired" selected="true"/>
             </f:SimpleForm>
         </content>
         <Toolbar>
